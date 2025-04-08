@@ -45,8 +45,8 @@ const Home = () => {
       <Box id="sobre" bg="var(--mainBackgroundDark)" display="flex" justifyContent="center" md={{padding: "0 2em", justifyContent: "start"}} lg={{padding: "0 10em"}} > {/* box para alinhar a box de dentro no centro */}
         <Box borderLeft="20px solid orange" bg="var(--mainBackgroundLight)" width="90%" marginTop="5em" padding="1em 2em" md={{padding: "2em 6em", display: 'flex', gap: "50px", marginTop: "6em"}} lg={{padding: "4em 6em"}} xl={{padding: "7em 12em"}}> {/* essa box vai conter a secion Sobre */}
           <Box flex="2"> {/* essa box contém a seção about */}
-            <Heading size="3xl" md={{textAlign: "start"}} lg={{fontSize: "36px"}} xl={{fontSize: "48px"}}  textAlign="center" marginBottom="1em">Sobre mim</Heading>
-            <Text textAlign="justify" sm={{fontSize: "18px"}} lg={{fontSize: "24px"}} xl={{fontSize: "26px"}}> 
+            <Heading size="3xl" md={{textAlign: "start"}} lg={{fontSize: "36px"}}  textAlign="center" marginBottom="1em">Sobre mim</Heading>
+            <Text textAlign="justify" sm={{fontSize: "18px"}} lg={{fontSize: "22px"}}> 
               Me chamo Pedro Henrique Brito Bastos, estudo Ciência da Computação e atualmente estou me especializando em 
               desenvolvimento web, com foco em Frontend. Possuo conhecimentos nas tecnologias HTML, CSS, Javascript, React e NodeJs.
               Busco cada vez mais melhorar as minhas habilidades e criar projetos cada vez melhores.
@@ -59,8 +59,8 @@ const Home = () => {
       <Box display="flex" paddingBottom="5em" bg="var(--mainBackgroundDark)" justifyContent="center" md={{padding: "0 2em 5em 2em", justifyContent: "end"}} lg={{padding: "0 10em 5em 10em"}} > {/* box para alinhar a box de dentro no centro */}
         <Box borderRight="20px solid orange" bg="var(--mainBackgroundLight)" width="90%" marginTop="5em" padding="1em 2em" md={{padding: "2em 6em", display: 'flex', gap: "50px", marginTop: "6em"}} lg={{padding: "4em 6em"}} xl={{padding: "7em 12em"}}> {/* essa box vai conter a secion Sobre */}
           <Box flex="2"> {/* essa box contém a seção about */}
-            <Heading size="3xl" md={{textAlign: "end"}} lg={{fontSize: "36px"}} xl={{fontSize: "48px"}}  textAlign="center" marginBottom="1em">Trajetória profissional</Heading>
-            <Text textAlign="justify" sm={{fontSize: "18px"}} lg={{fontSize: "24px"}} xl={{fontSize: "26px"}}> 
+            <Heading size="3xl" md={{textAlign: "end"}} lg={{fontSize: "36px"}}   textAlign="center" marginBottom="1em">Trajetória profissional</Heading>
+            <Text textAlign="justify" sm={{fontSize: "18px"}} lg={{fontSize: "22px"}}> 
               Concluí meu ensino médio na escola Centro Cultural Manilha, em 2019. Em 2020, comecei a fazer cursos e bootcamps na área de tecnologia, com foco
               em programação, e em 2021 ingressei na faculdade Anhanguera de Niterói para cursar Ciência da Computação. Atualmente estou focado na área de 
               programação Web.

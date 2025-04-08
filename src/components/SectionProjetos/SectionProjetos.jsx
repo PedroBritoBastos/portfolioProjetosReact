@@ -85,7 +85,7 @@ const SectionProjetos = () => {
          <Box padding="2em">
             <Heading textAlign="center" marginTop="1em" padding="1em" borderBottom="3px solid var(--mainOrange)" fontSize="26px" sm={{fontSize: "28px"}} lg={{fontSize: "36px"}}>Projetos</Heading>
             
-            <Box marginTop="3em" lg={{padding: "0 15em"}}> {/* essa box vai ajustar o tamanho do swapper */}
+            <Box marginTop="3em" lg={{padding: "0 10em"}}> {/* essa box vai ajustar o tamanho do swapper */}
                <Swiper
                   modules={[Controller, Pagination, Navigation]}
                   navigation={true}
@@ -95,7 +95,7 @@ const SectionProjetos = () => {
                   {projetos.map((projeto, index) => { 
                      return (
                         <SwiperSlide key={index}>
-                           <Card.Root maxWidth="580px" height="450px" sm={{height: "500px"}} md={{height: "600px"}}>
+                           <Card.Root margin="0 2em" maxWidth="580px" height="450px" sm={{height: "500px"}} md={{height: "600px"}}>
                               <Card.Header color="black" paddingTop="1em" textAlign="center" fontSize="20px" fontWeight="bold" sm={{fontSize: "24px"}}>{projeto.titulo}</Card.Header>
                               <Card.Body>
                                  <Image src={projeto.imagem}/>
