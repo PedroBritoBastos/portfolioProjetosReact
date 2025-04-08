@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+:root {
+   --mainBackgroundDark: rgba(96, 90, 89, 1);
+   --mainBackgroundLight: #8d8583;
+   --mainFontColor: white;
+   --mainOrange: #deaa56;
+}
+
+html {
+   scroll-behavior: smooth;
+   background: radial-gradient(circle, rgba(94,91,91,0.6587009803921569) 0%, rgba(59,56,55,1) 67%);
+}
+
+* {
+   color: var(--mainFontColor);
+}
+
+body {
+   background-color: rgba(59,56,55,1);
+}
+
+#root {
+   padding: 0 0 3em 0;
+}
+
+
