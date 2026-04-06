@@ -7,8 +7,9 @@ export function Habilities() {
     <Box
       py={{ base: "0.3rem", sm: "0.5rem", md: "2rem", lg: "4rem" }}
       px={{ base: "0.6rem", sm: "1rem", md: "8rem", xl: "15rem" }}
+      my="2.5rem"
     >
-      <Heading fontSize="2xl" textAlign="center">
+      <Heading fontSize="2xl" textAlign="center" mb="1rem">
         Habilidades
       </Heading>
 

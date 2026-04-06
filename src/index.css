@@ -4,7 +4,7 @@
 :root {
   --mainBackgroundDark: rgba(96, 90, 89, 1);
   --mainBackgroundLight: #8d858355;
-  --footerBackground: rgb(80, 74, 73);
+  --footerBackground: rgb(36, 34, 33);
   --mainFontColor: white;
   --mainOrange: #deaa56;
 }
@@ -30,5 +30,5 @@ body {
 }
 
 #root {
-  padding: 0 0 3em 0;
+  padding: 0;
 }
