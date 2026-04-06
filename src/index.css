@@ -3,7 +3,7 @@
 
 :root {
   --mainBackgroundDark: rgba(96, 90, 89, 1);
-  --mainBackgroundLight: #8d8583;
+  --mainBackgroundLight: #8d858355;
   --mainFontColor: white;
   --mainOrange: #deaa56;
 }
