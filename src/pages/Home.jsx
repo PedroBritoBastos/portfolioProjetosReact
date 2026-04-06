@@ -1,8 +1,8 @@
 import fotoPerfil from "../../src/assets/images/perfil.jpg";
 import { Box, Image, Heading, Text, Link } from "@chakra-ui/react";
-import curriculoIcon from "../../src/assets/images/curriculo_icon.png";
 
 import { About } from "@/components/About/About";
+import { Habilities } from "@/components/Habilities/Habilities";
 
 const Home = () => {
   return (
@@ -116,6 +116,9 @@ const Home = () => {
 
       {/* About */}
       <About />
+
+      {/* Habilidades */}
+      <Habilities />
     </header>
   );
 };
