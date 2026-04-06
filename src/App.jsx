@@ -1,24 +1,21 @@
-import Navbar from './components/Navbar/Navbar'
-import SectionTecnologias from './components/SectionTecnologias/SectionTecnologias';
-import SectionProjetos from './components/SectionProjetos/SectionProjetos';
-import Home from './pages/Home';
+import Navbar from "./components/Navbar/Navbar";
+import Home from "./pages/Home";
+import { Footer } from "./components/Footer/Footer";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import './App.css'
+import "./App.css";
 
 function App() {
-
   return (
     <>
       <BrowserRouter>
-        <Navbar/>
+        <Navbar />
         <Routes>
-          <Route path='/' element={<Home/>}/>
+          <Route path="/" element={<Home />} />
         </Routes>
-        <SectionTecnologias/>
-        <SectionProjetos/>
+        <Footer />
       </BrowserRouter>
-    </> 
-  )
+    </>
+  );
 }
 
-export default App
+export default App;

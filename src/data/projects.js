@@ -1,0 +1,48 @@
+import projetoAprenser from "../assets/images/projeto-aprenser.jpg";
+import projetoClimaApp from "../assets/images/clima-app-thumb.png";
+import projetoCarrinhoSobremesas from "../assets/images/carrinhoDeSobremesasFrontendmentor.png";
+import serfrontendProjeto1 from "../assets/images/serfrontendProjeto1.png";
+import serfrontendProjeto2 from "../assets/images/serfrontendProjeto2.png";
+
+export const projetos = [
+  {
+    titulo: "Projeto Aprenser",
+    imagem: projetoAprenser,
+    info: "Este projeto foi feito durante o curso SERFRONTEND da Udemy.",
+    link: "https://github.com/PedroBritoBastos/Projetos-Curso-Serfrontend-Udemy/tree/main/Projeto%204%20-%20Aprenser",
+    deploy: null,
+    tecnologias: "HTML e CSS",
+  },
+  {
+    titulo: "Clima App",
+    imagem: projetoClimaApp,
+    info: "Um App de clima que utiliza a API Open Weather",
+    link: "https://github.com/PedroBritoBastos/clima-app-react",
+    tecnologias: "HTML, CSS, Javascript e React",
+    deploy: "https://pedrobritobastos.github.io/clima-app-react/",
+  },
+  {
+    titulo: "Carrinho de Sobremesas",
+    imagem: projetoCarrinhoSobremesas,
+    info: "Desafio da plataforma Frontendmentor",
+    link: "https://github.com/PedroBritoBastos/frontendmentor-challenges?tab=readme-ov-file",
+    tecnologias: "HTML, CSS, Javascript e React",
+    deploy: null,
+  },
+  {
+    titulo: "Landing page simples",
+    imagem: serfrontendProjeto1,
+    info: "Mini projeto iniciante do curso Serfrontend",
+    link: "https://github.com/PedroBritoBastos/Projetos-Curso-Serfrontend-Udemy/tree/main/Projeto%201%20-%20P%C3%A1gina%20Web%20Simples%20Serfrontend",
+    tecnologias: "HTML e CSS",
+    deploy: null,
+  },
+  {
+    titulo: "Landing page simples",
+    imagem: serfrontendProjeto2,
+    info: "Mini projeto iniciante do curso Serfrontend",
+    link: "https://github.com/PedroBritoBastos/Projetos-Curso-Serfrontend-Udemy/tree/main/Projeto%201%20-%20P%C3%A1gina%20Web%20Simples%20Serfrontend",
+    tecnologias: "HTML e CSS",
+    deploy: null,
+  },
+];
