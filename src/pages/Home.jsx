@@ -3,6 +3,7 @@ import { Box, Image, Heading, Text, Link } from "@chakra-ui/react";
 
 import { About } from "@/components/About/About";
 import { Habilities } from "@/components/Habilities/Habilities";
+import { Projects } from "@/components/Projects/Projects";
 
 const Home = () => {
   return (
@@ -119,6 +120,7 @@ const Home = () => {
 
       {/* Habilidades */}
       <Habilities />
+      <Projects />
     </header>
   );
 };

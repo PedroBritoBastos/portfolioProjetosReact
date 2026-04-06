@@ -6,7 +6,7 @@ export function Habilities() {
   return (
     <Box
       py={{ base: "0.3rem", sm: "0.5rem", md: "2rem", lg: "4rem" }}
-      px={{ base: "0.6rem", sm: "1rem", md: "4rem", lg: "8rem", xl: "13rem" }}
+      px={{ base: "0.6rem", sm: "1rem", md: "8rem", xl: "15rem" }}
     >
       <Heading fontSize="2xl" textAlign="center">
         Habilidades
@@ -15,8 +15,8 @@ export function Habilities() {
       <Grid
         templateColumns={{
           base: "1fr",
-          sm: "repeat(2, 1fr)",
-          md: "repeat(3, 1fr)",
+          md: "repeat(2, 1fr)",
+          lg: "repeat(3, 1fr)",
         }}
         gap={{ base: "1.5rem", md: "1rem" }}
         justifyItems="center"
