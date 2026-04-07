@@ -3,8 +3,17 @@ import projetoClimaApp from "../assets/images/clima-app-thumb.png";
 import projetoCarrinhoSobremesas from "../assets/images/carrinhoDeSobremesasFrontendmentor.png";
 import serfrontendProjeto1 from "../assets/images/serfrontendProjeto1.png";
 import serfrontendProjeto2 from "../assets/images/serfrontendProjeto2.png";
+import projetoStudyApp from "../assets/images/projeto-study-app.png";
 
 export const projetos = [
+  {
+    titulo: "Study App",
+    imagem: projetoStudyApp,
+    info: "Projeto pessoal que desenvolvi para organizar meus estudos e cronogramas.",
+    link: "https://github.com/PedroBritoBastos/study-app-prod",
+    deploy: null,
+    tecnologias: "NextJS, Typescript, MongoDB com Mongoose e ChakraUI",
+  },
   {
     titulo: "Projeto Aprenser",
     imagem: projetoAprenser,
