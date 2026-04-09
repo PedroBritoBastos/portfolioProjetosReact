@@ -1,9 +1,9 @@
 import projetoAprenser from "../assets/images/projeto-aprenser.jpg";
-import projetoClimaApp from "../assets/images/clima-app-thumb.png";
 import projetoCarrinhoSobremesas from "../assets/images/carrinhoDeSobremesasFrontendmentor.png";
 import serfrontendProjeto1 from "../assets/images/serfrontendProjeto1.png";
 import serfrontendProjeto2 from "../assets/images/serfrontendProjeto2.png";
 import projetoStudyApp from "../assets/images/projeto-study-app.png";
+import projetoClimaApp from "../assets/images/clima-app.png";
 
 export const projetos = [
   {
@@ -21,14 +21,6 @@ export const projetos = [
     link: "https://github.com/PedroBritoBastos/Projetos-Curso-Serfrontend-Udemy/tree/main/Projeto%204%20-%20Aprenser",
     deploy: null,
     tecnologias: "HTML e CSS",
-  },
-  {
-    titulo: "Clima App",
-    imagem: projetoClimaApp,
-    info: "Um App de clima que utiliza a API Open Weather",
-    link: "https://github.com/PedroBritoBastos/clima-app-react",
-    tecnologias: "HTML, CSS, Javascript e React",
-    deploy: "https://pedrobritobastos.github.io/clima-app-react/",
   },
   {
     titulo: "Carrinho de Sobremesas",
@@ -52,6 +44,14 @@ export const projetos = [
     info: "Mini projeto iniciante do curso Serfrontend",
     link: "https://github.com/PedroBritoBastos/Projetos-Curso-Serfrontend-Udemy/tree/main/Projeto%201%20-%20P%C3%A1gina%20Web%20Simples%20Serfrontend",
     tecnologias: "HTML e CSS",
+    deploy: null,
+  },
+  {
+    titulo: "App de informações climáticas",
+    imagem: projetoClimaApp,
+    info: "App para pesquisar informações climáticas de uma cidade usando a API OpenWeather",
+    link: "https://github.com/PedroBritoBastos/clima-app-react",
+    tecnologias: "React com Vite",
     deploy: null,
   },
 ];
